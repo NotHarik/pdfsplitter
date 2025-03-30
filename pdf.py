@@ -34,8 +34,8 @@ def split_pdf(input_pdf, output_dir, pages_per_section=10):
         print(f"Saved: {output_pdf}")
 
 # Example usage
-input_pdf_path = "ItEndsWithUs.pdf"  # Replace with your PDF path
-output_directory = "ItEndsWithUsBrokenDown"  # Replace with your desired output folder
+input_pdf_path = "PDFName.pdf"  # Replace with your PDF path
+output_directory = "OutputFolder"  # Replace with your desired output folder
 pages_per_file = 10  # Number of pages per section
 
 split_pdf(input_pdf_path, output_directory, pages_per_file)
